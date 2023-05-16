@@ -1,0 +1,1296 @@
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.contenedor{
+    width:375px;
+    height:1000px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+   
+    background-color: hsl(270, 9%, 87%);
+}
+.contenedor .borde{
+    width:200px;
+    height:600px;
+    margin:auto;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left: 0px;
+    background-color:  hsl(276, 55%, 52%);
+    border-radius:0% 0% 100% 0% ;
+}
+.contenedor .mobile{
+    width:300px;
+    height:600px;
+    margin:auto;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:40px;
+    margin-top:70px;
+    background-color:white;
+    border-radius:40px;
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+.mobile .parteDeArribaMobile{
+    width:270px;
+    height:100px;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:15px;
+    margin-top:10px;
+    background-image:linear-gradient(to right, blueviolet , rgb(242, 41, 235));
+    border-radius:30px 30px 5px 5px;
+}
+.contenedor .parteDeArribaMobileBlanco{
+    width:150px;
+    height:30px;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:125px;
+    margin-top:70px;
+    background-color:white;
+    border-radius:40px;
+}
+.parteDeArribaMobile .flechaAvatar{
+    width:15px;
+    height:15px;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:20px;
+    margin-top:50px;  
+}
+.parteDeArribaMobile .flechaAvatar img{
+    width: 100%;
+    height: 100%;
+    border-radius:100%;
+}
+.parteDeArribaMobile .fotoAvatar{
+    width:25px;
+    height:25px;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:40px;
+    margin-top:42px;  
+}
+.parteDeArribaMobile .fotoAvatar img{
+    width: 100%;
+    height: 100%;
+    border-radius:100%;
+    border: 1px solid white;
+}
+.parteDeArribaMobile .nombre{
+    width:150px;
+    height:10px;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:80px;
+    margin-top:40px;  
+    font-size: small;
+    color: white;
+    font-family: 'Inter', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight:500;
+}
+.parteDeArribaMobile .Available{
+    width:150px;
+    height:10px;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:80px;
+    margin-top:60px;  
+    font-size: x-small;
+    color: rgb(216, 210, 210);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.parteDeArribaMobile .tresPuntitos{
+    width:12px;
+    height:12px;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:235px;
+    margin-top:52px;  
+}
+.parteDeArribaMobile .tresPuntitos img{
+    width: 100%;
+    height: 100%; 
+}
+.contenedor .chat1{
+    width:150px;
+    height:40px;
+    display:grid;
+    grid-column:1;
+    grid-row:5;
+    margin-left:60px;
+    margin-top:0px;  
+    font-size: x-small;
+    background-color: rgb(235, 229, 229);
+    border-radius: 10px 10px 10px 5px;
+    color: rgba(87, 87, 88, 0.492);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:50% 50% ;
+}
+/*EN DESKTOP VA HIDDEN LINEA 2 */
+.chat1 .linea1{
+    width: 120px;
+    height: 10px;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:10px;
+    margin-top:10px;
+}
+.chat1 .linea2{
+    width: 120px;
+    height: 10px;
+    display:grid;
+    grid-column:1;
+    grid-row:2;
+    margin-left:10px;
+    margin-top:02px;
+}
+.chat1 .linea3{
+    overflow: hidden;
+    width:0px;
+    height:0px;
+    display:grid;
+  
+}
+.contenedor .chat2{
+    width:150px;
+    height:40px;
+    display:grid;
+    grid-column:1;
+    grid-row:5;
+    margin-left:60px;
+    margin-top:50px;  
+    font-size: x-small;
+    background-color: rgb(235, 229, 229);
+    border-radius: 10px 10px 10px 5px;
+    color: rgba(87, 87, 88, 0.492);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:50% 50% ;
+}
+.chat2 .linea1{
+    width: 120px;
+    height: 10px;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:10px;
+    margin-top:10px;
+}
+.chat2 .linea2{
+    width: 140px;
+    height: 10px;
+    display:grid;
+    grid-column:1;
+    grid-row:2;
+    margin-left:10px;
+    margin-top:02px;
+}
+.contenedor .fotosPerros{
+    width:170px;
+    height:40px;
+    display: grid;
+    grid-column:1;
+    grid-row:6;
+    margin-top:60px;
+    margin-left:150px;
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-rows: 100%;
+   
+}
+.fotosPerros .perro1{
+  width:40px;
+  height:40px;
+  display: grid;
+  grid-column: 1;
+  grid-row: 1;
+}
+.fotosPerros .perro1 img{
+    width:100%;
+    height:100%;
+    border-radius:10px;
+}
+.fotosPerros .perro2{
+    width:40px;
+    height:40px;
+    display: grid;
+    grid-column:2;
+    grid-row: 1;
+  }
+  .fotosPerros .perro2 img{
+      width:100%;
+      height:100%;
+      border-radius:10px;
+  }
+  .fotosPerros .perro3{
+    width:40px;
+    height:40px;
+    display: grid;
+    grid-column:3;
+    grid-row: 1;
+  }
+  .fotosPerros .perro3 img{
+      width:100%;
+      height:100%;
+      border-radius:10px;
+  }
+  .contenedor .chat4{
+    width:150px;
+    height:40px;
+    display:grid;
+    grid-column:1;
+    grid-row:7;
+    margin-left:160px;
+    margin-top:70px;  
+    font-size: x-small;
+    background-color: rgb(248, 228, 228);
+    border-radius: 10px 10px 10px 5px;
+    color: rgba(87, 87, 88, 0.492);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:50% 50% ;
+}
+.chat4 .linea1{
+    width: 150px;
+    height: 10px;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:10px;
+    margin-top:10px;
+}
+.chat4 .linea2{
+    width: 140px;
+    height: 10px;
+    display:grid;
+    grid-column:1;
+    grid-row:2;
+    margin-left:10px;
+    margin-top:02px;
+}
+.contenedor .chat5{
+    width:100px;
+    height:30px;
+    display:grid;
+    grid-column:1;
+    grid-row:7;
+    margin-left:210px;
+    margin-top:120px;  
+    font-size: x-small;
+    background-color: rgb(248, 228, 228);
+    border-radius: 10px 10px 10px 5px;
+    color: rgba(87, 87, 88, 0.492);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:50% 50% ;
+}
+.chat5 .linea1{
+    width: 150px;
+    height: 10px;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:10px;
+    margin-top:10px;
+}
+.contenedor .chat6{
+    width:150px;
+    height:47px;
+    display:grid;
+    grid-column:1;
+    grid-row:10;
+    margin-left:60px;
+    margin-top:20px;  
+    font-size: x-small;
+    background-color: rgb(235, 229, 229);
+    border-radius: 10px 10px 10px 5px;
+    color: rgba(87, 87, 88, 0.492);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:33% 33% 33%;
+}
+
+.chat6 .linea1{
+    width: 150px;
+    height: 10px;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:10px;
+    margin-top:8px;
+}
+.chat6 .linea2{
+    width: 120px;
+    height: 10px;
+    display:grid;
+    grid-column:1;
+    grid-row:2;
+    margin-left:10px;
+    margin-top:04px;
+}
+.chat6 .linea3{
+    width:150px;
+    height:10px;
+    display:grid;
+    grid-column:1;
+    grid-row:3;
+    margin-left:10px;
+    margin-top:01px;
+}
+.contenedor .MinWalk30{
+    width:170px;
+    height:30px;
+    display:grid;
+    grid-column:1;
+    grid-row:11;
+    margin-left:60px;
+    margin-top:30px;  
+    font-size: x-small;
+    background-image: linear-gradient(to right, rgb(242, 41, 235) , blueviolet);
+    border-radius: 10px 10px 10px 5px;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows:100%;
+}
+.contenedor .MinWalk30 .circulito1{
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 100px;
+    display: grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:7px;
+    margin-top:10px;
+}
+.contenedor .MinWalk30 .num30{
+    width:70px;
+    height: 10px;
+    display: grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:25px;
+    margin-top:10px;
+    font-size: x-small;
+}
+.contenedor .MinWalk30 .Precio29{
+    width:10px;
+    height: 10px;  
+    display: grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:130px;
+    margin-top:7px;
+    font-size:small;
+    font-weight:800;
+}
+
+.contenedor .HourWalk{
+    width:170px;
+    height:30px;
+    display:grid;
+    grid-column:1;
+    grid-row:12;
+    margin-left:60px;
+    margin-top:20px;  
+    font-size: x-small;
+    background-image: linear-gradient(to right, rgb(242, 41, 235) , blueviolet);
+    border-radius: 10px 10px 10px 5px;
+    color:white;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    display: grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows:100%;
+}
+.contenedor .HourWalk .circulito2{
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    border-radius: 100px;
+    display: grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:7px;
+    margin-top:10px;
+}
+.contenedor .HourWalk .num1hour{
+    width:70px;
+    height: 10px;
+    display: grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:25px;
+    margin-top:10px;
+    font-size: x-small;
+}
+.contenedor .HourWalk .Precio49{
+    width:10px;
+    height: 10px;  
+    display: grid;
+    grid-column:1;
+    grid-row:1;
+    margin-left:130px;
+    margin-top:7px;
+    font-size:small;
+    font-weight:800;
+}
+.contenedor .type{
+    width:80px;
+    height:10px;
+    display:grid;
+    grid-column:1;
+    grid-row:13;
+    margin-left:80px;
+    margin-top:25px;  
+    font-size: x-small;
+    color: rgb(208, 205, 205);
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;  
+}
+.contenedor .redondoPie{
+    width:25px;
+    height:25px;
+    display:grid;
+    grid-column:1;
+    grid-row:13;
+    margin-left:260px;
+    margin-top:18px;  
+    background-color: hsl(271, 36%, 24%);
+    border-radius:100px;
+}
+.contenedor .redondoPie img{
+    width: 50%;
+    height: 50%;
+    margin-top:6px;
+    margin-left:7px;
+}
+.contenedor .tituloAbajo{
+    width: 300px;
+    height: 20px;
+    display:grid;
+    grid-column:1;
+    grid-row:13;
+    margin-left:65px;
+    margin-top:110px; 
+    font-size: xx-large;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;  
+    color: hsl(271, 36%, 24%);
+    font-weight: 700;
+}
+.contenedor .textoPie{
+    width:320px;
+    height:200px;
+    display: grid;
+    grid-column: 1;
+    grid-row:14;
+    margin-left:25px;
+    margin-top:120px; 
+    font-size:medium;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;  
+    color:rgb(159, 149, 149);
+
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:15% 15% 15% 15% 15% 15%;
+}
+.textoPie .linea1{
+    width:280px;
+    height: 10px;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+    margin-left:33px;
+}
+.textoPie .linea2{
+    width:280px;
+    height: 10px;
+    display: grid;
+    grid-column: 1;
+    grid-row:2;
+    margin-left:20px;
+}
+.textoPie .linea3{
+    width:280px;
+    height: 10px;
+    display: grid;
+    grid-column: 1;
+    grid-row:2;
+    margin-left:133px;
+}
+.textoPie .linea4{
+    width:280px;
+    height: 10px;
+    display: grid;
+    grid-column: 1;
+    grid-row:3;
+    margin-left:17px;
+}
+.textoPie .linea5{
+    width:50px;
+    height: 10px;
+    display: grid;
+    grid-column: 1;
+    grid-row:3;
+    margin-left:266px;
+}
+.textoPie .linea6{
+    width:250px;
+    height: 10px;
+    display: grid;
+    grid-column: 1;
+    grid-row:4;
+    margin-left:38px;
+}
+.textoPie .linea7{
+    width:250px;
+    height: 10px;
+    display: grid;
+    grid-column: 1;
+    grid-row:5;
+    margin-left:20px;
+}
+.textoPie .linea8{
+    width:250px;
+    height: 10px;
+    display: grid;
+    grid-column: 1;
+    grid-row:5;
+    margin-left:160px;
+}
+.textoPie .linea9{
+    width:300px;
+    height: 10px;
+    display: grid;
+    grid-column: 1;
+    grid-row:6;
+    margin-left:55px;
+}
+
+
+/**********************MEDIA QUERY*********************/
+/*******************************************************/
+/********************************************************/
+@media only screen and (min-width:1440px) {
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    .contenedor{
+        width:1440px;
+        height:1000px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows:5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+        background-color: hsl(270, 9%, 87%);
+      
+    }
+    .contenedor .borde{
+        width:500px;
+        height:850px;
+        margin:auto;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:0px;
+        background-color:  hsl(276, 55%, 52%);
+       /* border: 1px solid blueviolet;*/
+        border-radius:0 0 330px 310px;
+    }
+    .contenedor .borde .parcheBlanco{
+        width:75px;
+        height:1000px;
+        margin:auto;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:0px;
+        background-color:white;
+    }
+    .contenedor .mobile{
+        width:300px;
+        height:600px;
+        margin:auto;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:430px;
+        margin-top:220px;
+        background-color:white;
+        border-radius:40px;
+    
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows:10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    }
+    .mobile .parteDeArribaMobile{
+        width:270px;
+        height:100px;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:15px;
+        margin-top:10px;
+        background-image:linear-gradient(to right, blueviolet , rgb(242, 41, 235));
+        border-radius:30px 30px 5px 5px;
+    }
+    .contenedor .parteDeArribaMobileBlanco{
+        width:150px;
+        height:30px;
+        display:grid;
+        grid-column:1;
+        grid-row:4;
+        margin-left:500px;
+        margin-top:70px;
+        background-color:white;
+        border-radius:40px;
+    }
+    .parteDeArribaMobile .flechaAvatar{
+        width:15px;
+        height:15px;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:20px;
+        margin-top:50px;  
+    }
+    .parteDeArribaMobile .flechaAvatar img{
+        width: 100%;
+        height: 100%;
+        border-radius:100%;
+    }
+    .parteDeArribaMobile .fotoAvatar{
+        width:25px;
+        height:25px;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:40px;
+        margin-top:42px;  
+    }
+    .parteDeArribaMobile .fotoAvatar img{
+        width: 100%;
+        height: 100%;
+        border-radius:100%;
+        border: 1px solid white;
+    }
+    .parteDeArribaMobile .nombre{
+        width:150px;
+        height:10px;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:80px;
+        margin-top:40px;  
+        font-size: small;
+        color: white;
+        font-family: 'Inter', sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight:500;
+    }
+    .parteDeArribaMobile .Available{
+        width:150px;
+        height:10px;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:80px;
+        margin-top:60px;  
+        font-size: x-small;
+        color: rgb(216, 210, 210);
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .parteDeArribaMobile .tresPuntitos{
+        width:12px;
+        height:12px;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:235px;
+        margin-top:52px;  
+    }
+    .parteDeArribaMobile .tresPuntitos img{
+        width: 100%;
+        height: 100%; 
+    }
+    .contenedor .chat1{
+        width:150px;
+        height:40px;
+        display:grid;
+        grid-column:1;
+        grid-row:8;
+        margin-left:450px;
+        margin-top:0px;  
+        font-size: x-small;
+        background-color: rgb(235, 229, 229);
+        border-radius: 10px 10px 10px 5px;
+        color: rgba(87, 87, 88, 0.492);
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows:50% 50% ;
+    }
+    /*EN DESKTOP VA HIDDEN LINEA 2*/
+    .chat1 .linea1{
+        width: 120px;
+        height: 10px;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:10px;
+        margin-top:10px;
+    }
+    .chat1 .linea2{
+        overflow: hidden;
+        width: 0px;
+        height:0px;
+        display:grid;
+       /* grid-column:1;
+        grid-row:2;*/
+        margin-left:10px;
+        margin-top:02px;
+    }
+    .chat1 .linea3{
+        width:120px;
+        height:10px;
+        display:grid;
+        grid-column:1;
+        grid-row:2;
+        margin-left:10px;
+        margin-top:02px;
+    }
+    .contenedor .chat2{
+        width:150px;
+        height:40px;
+        display:grid;
+        grid-column:1;
+        grid-row:8;
+        margin-left:450px;
+        margin-top:50px;  
+        font-size: x-small;
+        background-color: rgb(235, 229, 229);
+        border-radius: 10px 10px 10px 5px;
+        color: rgba(87, 87, 88, 0.492);
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows:50% 50% ;
+    }
+    .chat2 .linea1{
+        width: 120px;
+        height: 10px;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:10px;
+        margin-top:10px;
+    }
+    .chat2 .linea2{
+        width: 140px;
+        height: 10px;
+        display:grid;
+        grid-column:1;
+        grid-row:2;
+        margin-left:10px;
+        margin-top:02px;
+    }
+    .contenedor .fotosPerros{
+        width:170px;
+        height:40px;
+        display: grid;
+        grid-column:1;
+        grid-row:9;
+        margin-top:60px;
+        margin-left:550px;
+    
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-auto-rows: 100%;
+       
+    }
+    .fotosPerros .perro1{
+      width:40px;
+      height:40px;
+      display: grid;
+      grid-column: 1;
+      grid-row: 1;
+    }
+    .fotosPerros .perro1 img{
+        width:100%;
+        height:100%;
+        border-radius:10px;
+    }
+    .fotosPerros .perro2{
+        width:40px;
+        height:40px;
+        display: grid;
+        grid-column:2;
+        grid-row: 1;
+      }
+      .fotosPerros .perro2 img{
+          width:100%;
+          height:100%;
+          border-radius:10px;
+      }
+      .fotosPerros .perro3{
+        width:40px;
+        height:40px;
+        display: grid;
+        grid-column:3;
+        grid-row: 1;
+      }
+      .fotosPerros .perro3 img{
+          width:100%;
+          height:100%;
+          border-radius:10px;
+      }
+      .contenedor .chat4{
+        width:150px;
+        height:40px;
+        display:grid;
+        grid-column:1;
+        grid-row:10;
+        margin-left:550px;
+        margin-top:70px;  
+        font-size: x-small;
+        background-color: rgb(248, 228, 228);
+        border-radius: 10px 10px 10px 5px;
+        color: rgba(87, 87, 88, 0.492);
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows:50% 50% ;
+    }
+    .chat4 .linea1{
+        width: 150px;
+        height: 10px;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:10px;
+        margin-top:10px;
+    }
+    .chat4 .linea2{
+        width: 140px;
+        height: 10px;
+        display:grid;
+        grid-column:1;
+        grid-row:2;
+        margin-left:10px;
+        margin-top:02px;
+    }
+    .contenedor .chat5{
+        width:100px;
+        height:30px;
+        display:grid;
+        grid-column:1;
+        grid-row:10;
+        margin-left:550px;
+        margin-top:120px;  
+        font-size: x-small;
+        background-color: rgb(248, 228, 228);
+        border-radius: 10px 10px 10px 5px;
+        color: rgba(87, 87, 88, 0.492);
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows:50% 50% ;
+    }
+    .chat5 .linea1{
+        width: 150px;
+        height: 10px;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:10px;
+        margin-top:10px;
+    }
+    .contenedor .chat6{
+        width:150px;
+        height:47px;
+        display:grid;
+        grid-column:1;
+        grid-row:13;
+        margin-left:450px;
+        margin-top:20px;  
+        font-size: x-small;
+        background-color: rgb(235, 229, 229);
+        border-radius: 10px 10px 10px 5px;
+        color: rgba(87, 87, 88, 0.492);
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows:33% 33% 33%;
+    }
+    
+    .chat6 .linea1{
+        width: 150px;
+        height: 10px;
+        display:grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:10px;
+        margin-top:8px;
+    }
+    .chat6 .linea2{
+        width: 120px;
+        height: 10px;
+        display:grid;
+        grid-column:1;
+        grid-row:2;
+        margin-left:10px;
+        margin-top:04px;
+    }
+    .chat6 .linea3{
+        width:150px;
+        height:10px;
+        display:grid;
+        grid-column:1;
+        grid-row:3;
+        margin-left:10px;
+        margin-top:01px;
+    }
+    .contenedor .MinWalk30{
+        width:170px;
+        height:30px;
+        display:grid;
+        grid-column:1;
+        grid-row:14;
+        margin-left:450px;
+        margin-top:30px;  
+        font-size: x-small;
+        background-image: linear-gradient(to right, rgb(242, 41, 235) , blueviolet);
+        border-radius: 10px 10px 10px 5px;
+        color:white;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+        display: grid;
+        grid-template-columns:50% 50%;
+        grid-template-rows:100%;
+    }
+    .contenedor .MinWalk30 .circulito1{
+        width: 10px;
+        height: 10px;
+        border: 1px solid white;
+        border-radius: 100px;
+        display: grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:7px;
+        margin-top:10px;
+    }
+    .contenedor .MinWalk30 .num30{
+        width:70px;
+        height: 10px;
+        display: grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:25px;
+        margin-top:10px;
+        font-size: x-small;
+    }
+    .contenedor .MinWalk30 .Precio29{
+        width:10px;
+        height: 10px;  
+        display: grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:130px;
+        margin-top:7px;
+        font-size:small;
+        font-weight:800;
+    }
+    /**/
+    .contenedor .HourWalk{
+        width:170px;
+        height:30px;
+        display:grid;
+        grid-column:1;
+        grid-row:14;
+        margin-left:450px;
+        margin-top:70px;  
+        font-size: x-small;
+        background-image: linear-gradient(to right, rgb(242, 41, 235) , blueviolet);
+        border-radius: 10px 10px 10px 5px;
+        color:white;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+    
+        display: grid;
+        grid-template-columns:50% 50%;
+        grid-template-rows:100%;
+    }
+    .contenedor .HourWalk .circulito2{
+        width: 10px;
+        height: 10px;
+        border: 1px solid white;
+        border-radius: 100px;
+        display: grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:7px;
+        margin-top:10px;
+    }
+    .contenedor .HourWalk .num1hour{
+        width:70px;
+        height: 10px;
+        display: grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:25px;
+        margin-top:10px;
+        font-size: x-small;
+    }
+    .contenedor .HourWalk .Precio49{
+        width:10px;
+        height: 10px;  
+        display: grid;
+        grid-column:1;
+        grid-row:1;
+        margin-left:130px;
+        margin-top:7px;
+        font-size:small;
+        font-weight:800;
+    }
+    .contenedor .type{
+        width:80px;
+        height:10px;
+        display:grid;
+        grid-column:1;
+        grid-row:15;
+        margin-left:450px;
+        margin-top:70px;  
+        font-size: x-small;
+        color: rgb(208, 205, 205);
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;  
+    }
+    .contenedor .redondoPie{
+        width:25px;
+        height:25px;
+        display:grid;
+        grid-column:1;
+        grid-row:16;
+        margin-left:660px;
+        margin-top:15px;  
+        background-color: hsl(271, 36%, 24%);
+        border-radius:100px;
+    }
+    .contenedor .redondoPie img{
+        width: 50%;
+        height: 50%;
+        margin-top:6px;
+        margin-left:7px;
+    }
+    .contenedor .tituloAbajo{
+        width:400px;
+        height: 20px;
+        display:grid;
+        grid-column:2;
+        grid-row:10;
+        margin-left:50px;
+        margin-top:0px; 
+        font-size:50px;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;  
+        color: hsl(271, 36%, 24%);
+        font-weight: 700;
+    }
+    .contenedor .textoPie{
+        width:450px;
+        height:200px;
+        display: grid;
+        grid-column:2;
+        grid-row:10;
+        margin-left:50px;
+        margin-top:120px; 
+        font-size:x-large;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Libre Franklin', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;  
+        color:rgb(159, 149, 149);
+    
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows:15% 15% 15% 15% 15% 15%;
+
+    }
+    .textoPie .linea1{
+        width:450px;
+        height: 10px;
+        display: grid;
+        grid-column: 1;
+        grid-row: 1;
+        margin-left:0px;
+    }
+    .textoPie .linea2{
+        width:280px;
+        height: 10px;
+        display: grid;
+        grid-column: 1;
+        grid-row:1;
+        margin-left:385px;
+    }
+    .textoPie .linea3{
+        width:280px;
+        height: 10px;
+        display: grid;
+        grid-column: 1;
+        grid-row:2;
+        margin-left:0px;
+    }
+    .textoPie .linea4{
+        width:400px;
+        height: 10px;
+        display: grid;
+        grid-column: 1;
+        grid-row:2;
+        margin-left:255px;
+    }
+    .textoPie .linea5{
+        width:50px;
+        height: 10px;
+        display: grid;
+        grid-column: 1;
+        grid-row:3;
+        margin-left:0px;
+    }
+    .textoPie .linea6{
+        width:400px;
+        height: 10px;
+        display: grid;
+        grid-column: 1;
+        grid-row:3;
+        margin-left:65px;
+    }
+    .textoPie .linea7{
+        width:250px;
+        height: 10px;
+        display: grid;
+        grid-column: 1;
+        grid-row:3;
+        margin-left:438px;
+    }
+    .textoPie .linea8{
+        width:250px;
+        height: 10px;
+        display: grid;
+        grid-column: 1;
+        grid-row:4;
+        margin-left:0px;
+    }
+    .textoPie .linea9{
+        width:350px;
+        height: 10px;
+        display: grid;
+        grid-column: 1;
+        grid-row:4;
+        margin-left:230px;
+    }   
+}
